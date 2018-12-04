@@ -11,9 +11,9 @@
 </template>
 
 <script>
-	import about from './About.vue';
+	import about from '@/views/About.vue';
 	export default {
-		comments: {
+		components: {
 			about
 		},
 		data() {
